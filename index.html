@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <style>
+    .fastMove {
+      background-color: #bf9d3f;
+    }
+  </style>
+<body>
+  <button onclick="trueStartup ()">START BUTTON</button>
+
+  <p>SPOOKY GAME</p>
+  <p>RULES: Make moves, find treasures, dodge the creatures and walls, get the best score. You are allowed 2 compasses to help you along your journey. Good luck! Go explore and discover mechanics and stuff!</p>
+
+  <p id="myElement"></p>
+
+  <p id="myElement2"></p>
+
+  <p id="myElement3"></p>
+
+  <p id="myElement4"></p>
+  
+  <button onclick="movePCNorth()"> Move North</button>
+  <button onclick="movePCEast()"> Move East</button>
+  <button onclick="movePCSouth()"> Move South</button>
+  <button onclick="movePCWest()"> Move West</button>
+  <button onclick="PCLook()"> Look around</button>
+  <p></p>
+  <button onclick="PCInteract()" class="fastMove"> Interact</button>
+  <button onclick="useCompass()" class="fastMove"> Use a compass</button>
+  <button onclick="useCompassDEV()" class="fastMove">DEV CONSOLE</button>
+  <p>(PS if a pillar spawns on the exit, or you become trapped by pillars and cannot continue, SUCKS TO BE YOU there is NO contingency HAHA)</p>
+  <script src="script.js"></script>
+  <script>
+  </script>
+</body>
+</html>
